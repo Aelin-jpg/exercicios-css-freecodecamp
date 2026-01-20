@@ -1,27 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Todo List com Estados de Links</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="business-card">
-         <img src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" class="profile-image" alt="flor">
-          <p class="full-name">Laís</p>
-           <p class="designation">Desenvolvedora</p>
-             <p class="company">Empresa x</p>
-             <hr>
-             <p>lais_oli@icloud.com</p>
-             <p>88 98106-1128</p>
-             <a class="portfolio-link" href="https://github.com/Aelin-jpg">Portfolio</a>
-    </div>
-    <div class="social-media">
-        <h2>Conecte-se comigo</h2>
-        <a href="https://www.linkedin.com/in/lais-oliveira-2b4b98221/">Twitter</a>
-        <a href="https://www.linkedin.com/in/lais-oliveira-2b4b98221/">LinkedIn</a>
-        <a href="https://github.com/Aelin-jpg">GitHub</a>
-    </div>
+
+  <h1>Minha Lista de Tarefas</h1>
+
+  <ul class="todo-list">
+    <li>
+      <input type="checkbox" id="task-1">
+      <label for="task-1">Estudar HTML</label>
+
+      <ul class="sub-item">
+        <li>
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+            target="_blank"
+            class="sub-item-link"
+          >
+            Documentação HTML
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <input type="checkbox" id="task-2">
+      <label for="task-2">Praticar CSS</label>
+
+      <ul class="sub-item">
+        <li>
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+            target="_blank"
+            class="sub-item-link"
+          >
+            Guia de CSS
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <input type="checkbox" id="task-3">
+      <label for="task-3">Aprender JavaScript</label>
+
+      <ul class="sub-item">
+        <li>
+          <a
+            href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+            target="_blank"
+            class="sub-item-link"
+          >
+            JavaScript no MDN
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <input type="checkbox" id="task-4">
+      <label for="task-4">Construir Projetos</label>
+
+      <ul class="sub-item">
+        <li>
+          <a
+            href="https://www.freecodecamp.org/portuguese/"
+            target="_blank"
+            class="sub-item-link"
+          >
+            freeCodeCamp
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
 </body>
 </html>
