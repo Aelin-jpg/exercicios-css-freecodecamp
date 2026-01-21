@@ -2,82 +2,29 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Todo List com Estados de Links</title>
+  <title>Cartão de Postagem de Blog</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <h1>Minha Lista de Tarefas</h1>
+  <div class="blog-post-card">
+    <img 
+      class="post-img"
+      src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg"
+      alt="Imagem de capa do post do blog"
+    >
 
-  <ul class="todo-list">
-    <li>
-      <input type="checkbox" id="task-1">
-      <label for="task-1">Estudar HTML</label>
+    <div class="post-content">
+      <h2 class="post-title">Como Criar Cartões Elegantes com CSS</h2>
 
-      <ul class="sub-item">
-        <li>
-          <a
-            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
-            target="_blank"
-            class="sub-item-link"
-          >
-            Documentação HTML
-          </a>
-        </li>
-      </ul>
-    </li>
+      <p class="post-excerpt">
+        Aprenda a estilizar cartões modernos usando bordas, espaçamento interno,
+        cores e efeitos de hover para melhorar a experiência do usuário.
+      </p>
 
-    <li>
-      <input type="checkbox" id="task-2">
-      <label for="task-2">Praticar CSS</label>
-
-      <ul class="sub-item">
-        <li>
-          <a
-            href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
-            target="_blank"
-            class="sub-item-link"
-          >
-            Guia de CSS
-          </a>
-        </li>
-      </ul>
-    </li>
-
-    <li>
-      <input type="checkbox" id="task-3">
-      <label for="task-3">Aprender JavaScript</label>
-
-      <ul class="sub-item">
-        <li>
-          <a
-            href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-            target="_blank"
-            class="sub-item-link"
-          >
-            JavaScript no MDN
-          </a>
-        </li>
-      </ul>
-    </li>
-
-    <li>
-      <input type="checkbox" id="task-4">
-      <label for="task-4">Construir Projetos</label>
-
-      <ul class="sub-item">
-        <li>
-          <a
-            href="https://www.freecodecamp.org/portuguese/"
-            target="_blank"
-            class="sub-item-link"
-          >
-            freeCodeCamp
-          </a>
-        </li>
-      </ul>
-    </li>
-  </ul>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+  </div>
 
 </body>
 </html>
