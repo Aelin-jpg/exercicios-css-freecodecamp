@@ -1,63 +1,55 @@
-/* Estilos gerais */
+/* Estilo geral da página */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  padding: 40px;
+  background-color: #e6ecf0;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: #333;
+/* Cartão principal */
+.blog-post-card {
+  background-color: white;
+  width: 350px;
+  border-radius: 12px;
+  text-align: left;
+  margin: 40px auto;
+  overflow: hidden;
 }
 
-/* Lista principal */
-.todo-list {
-  list-style: none;
-  padding: 0;
-  max-width: 400px;
+/* Imagem do cartão */
+.post-img {
+  width: 100%;
+  border-bottom: 4px solid #4a90e2;
 }
 
-.todo-list > li {
-  background: #ffffff;
-  margin-bottom: 15px;
-  padding: 15px;
-  border-radius: 8px;
+/* Conteúdo interno */
+.post-content {
+  padding: 20px;
 }
 
-/* Sublista */
-.sub-item {
-  list-style: none;
-  margin-top: 10px;
-  padding-left: 0;
+/* Título do post */
+.post-title {
+  color: #2c3e50;
+  margin: 10px 0;
 }
 
-/* Remove sublinhado dos links */
-.sub-item-link {
+/* Resumo do post */
+.post-excerpt {
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+/* Botão Read More */
+.read-more {
+  display: inline-block;
   text-decoration: none;
-  font-weight: bold;
+  color: white;
+  background-color: #4a90e2;
+  margin: 5px 0;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
 }
 
-/* Link não visitado */
-.sub-item-link:link {
-  color: #1e88e5;
-}
-
-/* Link visitado */
-.sub-item-link:visited {
-  color: #6a1b9a;
-}
-
-/* Hover */
-.sub-item-link:hover {
-  color: #e53935;
-}
-
-/* Focus */
-.sub-item-link:focus {
-  outline: 3px solid #ffb300;
-  outline-offset: 4px;
-}
-
-/* Active (clicado) */
-.sub-item-link:active {
-  color: #2e7d32;
+/* Efeito hover */
+.read-more:hover {
+  background-color: #357ab8;
 }
